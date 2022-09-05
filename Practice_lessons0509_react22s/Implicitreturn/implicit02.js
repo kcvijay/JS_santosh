@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
 Create a function multiply that returns the product of both of its parameters without using the keyword return.
@@ -6,10 +6,7 @@ Create a function multiply that returns the product of both of its parameters wi
 /**
  * @param {number} value
  */
-function triple () {
-
-}
-
+const multiply = (a, b) => a * b;
 
 // Sample usage - do not modify
 console.log(multiply(2, 4)); // 8
